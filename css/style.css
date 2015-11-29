@@ -1,0 +1,80 @@
+body{
+	background-color: #bada55;
+	background-image: url(../images/space.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+	font-family: 'Vollkorn', serif;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	font-size: 40px;
+	text-align: center;
+	color: red;
+}
+
+
+.main{
+	width: 600px;
+	margin: 10px auto;
+	background-color: rgba(255,255,255,0.6);
+	padding:20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px `10px 10px yellow;
+
+}
+
+body h2{
+	color: green!important; /*This is the decendance seletor it will pick out any h2 within the body & transform it & !important will override conflicts*/
+}
+
+h2{
+	margin:10:0;
+	text-align:center;
+	font-weight:normal;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #568cff;
+	margin-bottom: 0px;
+}
+
+/*This is how to leave a comment in the code*/
+
+img{
+	width:200px;
+	display:block; 
+	margin: 0 auto; /*This centers the image*/
+	border: 10px inset orange;
+	border-radius: 30px 50% 50%;
+}
+
+p,
+ul,
+ol{
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	color:white;
+}	
+p,
+ul,
+h3{
+	color: white;
+	margin-bottom: 0px; 
+}
+a{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:focus,
+a:hover{
+	text-decoration: underline;
+	color: #990033;
+}
+
+
+}
